@@ -1,0 +1,5 @@
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+age = input("Enter your age: ")
+username = first_name[:3].lower()+last_name.lower()+str(age)
+print("username = ",username)
